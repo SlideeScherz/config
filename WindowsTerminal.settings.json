@@ -1,0 +1,144 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+end"
+        },
+        {
+            "command": "experimental.openScratchpad",
+            "id": "User.experimental.openScratchpad"
+        },
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "icon": "copy",
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c",
+            "name": "Copy"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {},
+        "list": [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "guid": "{1283f7b9-e7e4-572b-9780-df341ca8766b}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{fcc940f8-bc7d-5c10-a967-557c20912c99}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "backgroundImage": "C:\\Users\\970827\\OneDrive\\img\\LogoEmailSignature.png",
+                "backgroundImageOpacity": 0.66,
+                "backgroundImageStretchMode": "none",
+                "closeOnExit": "automatic",
+                "colorScheme": "Dark Pastel - Custom",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "cursorShape": "bar",
+                "font": {
+                    "face": "Cascadia Mono",
+                    "size": 12
+                },
+                "guid": "{b2649cf8-3327-4f5f-9327-8223d99e3dde}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Windows PowerShell - Scott",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": "Scott",
+                "useAcrylic": false
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#5555FF",
+            "brightBlack": "#555555",
+            "brightBlue": "#5555FF",
+            "brightCyan": "#55FFFF",
+            "brightGreen": "#55FF55",
+            "brightPurple": "#FF55FF",
+            "brightRed": "#FF5555",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF55",
+            "cursorColor": "#BBBBBB",
+            "cyan": "#55FFFF",
+            "foreground": "#FFFFFF",
+            "green": "#55FF55",
+            "name": "Dark Pastel - Custom",
+            "purple": "#FF55FF",
+            "red": "#FF5555",
+            "selectionBackground": "#B5D5FF",
+            "white": "#BBBBBB",
+            "yellow": "#FFFF55"
+        }
+    ],
+    "theme": "dark",
+    "themes": []
+}
